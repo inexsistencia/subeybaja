@@ -23,3 +23,5 @@ y en el se comitearan estos cambios
 	> *Para crear una nueva rama y saltar a ella, en un solo paso, puedes utilizar el comando 'git checkout' con la opción '-b':*
 	> git checkout -b iss53
 	> [lik a help de branc en git](http://git-scm.com/book/es/Ramificaciones-en-Git-Procedimientos-b%C3%A1sicos-para-ramificar-y-fusionar)
+
+3. paso para poder **mergear** no ya acia el fork original, sino entre ramas propias desde unarama propia hasta nuestro master (en este caso de nuestro branch rama_de_prueba, hacia nuestro master)
