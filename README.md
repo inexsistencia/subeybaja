@@ -30,3 +30,12 @@ y en el se comitearan estos cambios
 4. uno siempre tiene su propio repocitorio como origin, pero nuestro 'origin' no sigue siendomas que un fork de el repo-original que es el origin es el del creador.
 para poder conectarnoscon ese repo-original debemos definir  "crear" una nueva coneccion remota hacia el repo-original la cual se lama **upstream**
 entonces si el creador agrega un archivo, en este caso 'index.php' al repo-original podemos traer (sumar, integrar) esos cambios a nuestr origin-master y luego mergear esos cabios entre origins desde el upstream a nuestro master
+	
+	#####comandos usados
+
+	1. git remote add upstream git@github.com:inexsistencia/subeybaja.git
+	2. git remote (paraver que secreo la unin remota)
+	3. git fetch upstream (obtiene los nuevos cambiosde la repo-original)
+	4. git merge upstream/master (fusiona los cambios en nuestros archivos)
+	5. git commit -m "texto del comit"
+	6. git push origin master (o en lugar de master rama si quiero trabajar con una rama)
