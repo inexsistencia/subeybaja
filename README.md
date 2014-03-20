@@ -20,3 +20,6 @@ y en el se comitearan estos cambios
 	1. git branch rama_de_prueba (crea la nueba rama o branch)
 	2. git branch (es para consultar cuales existen)
 	3. git checkout *nombre del branch* (con esta orden podemos cambiar de un branch a otro en este caso la orden seria *git checkout rama_de_prueb*)
+	> *Para crear una nueva rama y saltar a ella, en un solo paso, puedes utilizar el comando 'git checkout' con la opción '-b':*
+	> git checkout -b iss53
+	> [lik a help de branc en git](http://git-scm.com/book/es/Ramificaciones-en-Git-Procedimientos-b%C3%A1sicos-para-ramificar-y-fusionar)
